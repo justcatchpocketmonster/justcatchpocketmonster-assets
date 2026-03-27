@@ -1535,8 +1535,6 @@
     ]
   },
 
-  "seasonalEvent": {},
-
   "commandTradeExplication": {
     "fr": ["Permet d'échanger un Pokémon avec un autre utilisateur"],
     "eng": ["Allows you to trade a Pokémon with another user"]
