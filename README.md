@@ -7,16 +7,27 @@ This repository stores shared assets and data used by the main bot project:
 
 ```
 /
+├── .github/workflows/tests.yml
 ├── images/
+│   ├── pokeHome/
+│   ├── pokeHomeShadow/
+│   └── eventImage/
 └── json/
     ├── pokemon.json
     ├── language.json
     ├── eventData.json
     └── eventSeasonalData.json
+    └── schemaRules.json
+
+tests/
+package.json
 ```
 
 - `images/`: Pokemon and project images (served through GitHub raw URLs).
 - `json/`: Runtime data files loaded locally by the main project submodule.
+- `tests/`: Data validation tests (run with `vitest`).
+- `.github/workflows/tests.yml`: CI running `npm test` on PRs and pushes to `main`.
+- `json/schemaRules.json`: Shared validation rules (required languages, allowed values, image folders).
 
 ## How the main project uses this repo
 
@@ -24,6 +35,20 @@ In the main repository, this repo is mounted as a Git submodule at `src/data`.
 
 - JSON files are imported from `src/data/json/...`.
 - Images are referenced using raw GitHub URLs from `images/...`.
+
+## Data validation (recommended)
+
+This repo includes a test suite to guarantee consistency between:
+- JSON structure and required languages (see `json/schemaRules.json`)
+- Existing image files and naming/extension rules
+- Event data formats
+
+Run locally:
+
+```bash
+npm ci
+npm test
+```
 
 ## Images usage (updated)
 
@@ -50,6 +75,14 @@ filenames) to avoid broken links.
 1. Add/update files in `images/` or `json/`.
 2. Commit and push changes in this repository.
 3. Update the submodule pointer in the main repository.
+
+## JSON files (what they contain)
+
+- `json/pokemon.json`: Pokedex data used at runtime (IDs, forms, rarity, generation, etc.).
+- `json/language.json`: All i18n strings. **Each key must contain all required languages** (see `json/schemaRules.json`).
+- `json/eventData.json`: Main event definitions.
+- `json/eventSeasonalData.json`: Seasonal event definitions.
+- `json/schemaRules.json`: Validation rules consumed by tests (languages required, allowed forms/rarity/gens, image folders/extensions).
 
 ## Naming rules
 
