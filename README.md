@@ -1,48 +1,67 @@
 # justCatchPocketMonster assets
 
-This repository is dedicated **only to storing assets** (such as imagesused by the main project: [![justCatchPocketMonster](https://img.shields.io/badge/Main%20Project-GitHub-blue?logo=github)](https://github.com/pvcsam/justCatchPocketMonster).
+This repository stores shared assets and data used by the main bot project:
+`https://github.com/justCatchPocketMonster/justCatchPocketMonster`.
 
-## 📂 Structure
-
-```
-/assets
-  ├── images/
-  └── ...
-```
-
-* `images/` → Project images
-
-## 🔗 How to Access Assets
-
-You can access files directly via **GitHub’s raw content delivery**:
+## Structure
 
 ```
-https://raw.githubusercontent.com/<username>/<repo>/<branch>/<path-to-file>
+/
+├── images/
+└── json/
+    ├── pokemon.json
+    ├── language.json
+    ├── eventData.json
+    └── eventSeasonalData.json
 ```
 
-### Example
+- `images/`: Pokemon and project images (served through GitHub raw URLs).
+- `json/`: Runtime data files loaded locally by the main project submodule.
 
-If you want to use `assets/images/logo.png` from the `main` branch:
+## How the main project uses this repo
 
+In the main repository, this repo is mounted as a Git submodule at `src/data`.
+
+- JSON files are imported from `src/data/json/...`.
+- Images are referenced using raw GitHub URLs from `images/...`.
+
+## Images usage (updated)
+
+Image files are stored in `images/` and are intended to be consumed through
+GitHub raw URLs.
+
+Raw URL format:
+
+```txt
+https://raw.githubusercontent.com/justCatchPocketMonster/justCatchPocketMonster-assets/main/images/<file-name>.png
 ```
-https://raw.githubusercontent.com/<username>/<repo>/main/assets/images/logo.png
+
+Example:
+
+```txt
+https://raw.githubusercontent.com/justCatchPocketMonster/justCatchPocketMonster-assets/main/images/0001-001.png
 ```
 
-This URL can be embedded directly into websites, applications, or documentation.
+In the main bot, keep image references stable and deterministic (ID/form-based
+filenames) to avoid broken links.
 
-## 🚀 Usage
+## Contributing
 
-These assets are intended to be **read-only** and should not contain any code.
-If you want to contribute or update files:
+1. Add/update files in `images/` or `json/`.
+2. Commit and push changes in this repository.
+3. Update the submodule pointer in the main repository.
 
-1. Fork the repo
-2. Add or update assets in the appropriate folder
-3. Open a pull request
+## Naming rules
 
-## ⚠️ Notes
+- Keep filenames descriptive and lowercase.
+- Pokemon image format: `<four-digit-id>-<three-digit-variant>.png` (example: `0001-001.png`).
+- Optional shiny suffix: `-shiny` (example: `0001-001-shiny.png`).
+- Optional form suffix before shiny: `-<form>` (example: `0001-001-mega-shiny.png`).
+- Avoid very large files (>50MB).
 
-* Keep file names descriptive and lowercase (e.g., `logo-dark.png`, `spaghetti.gif`).
-* For Pokémon's images, use the format `<four-digit ID>-<three-digit version (gender, variant)>.png` (Example: `0001-001.png`).
-* (Optional) For shiny versions, append `-shiny` at the end. (Example: `0001-001-shiny.png`)
-* (Optional) For form versions, append `-<form>` at the end (before shiny). (Example: `0001-001-mega-shiny.png`)
-* Avoid committing large files (>50MB) as GitHub does not support them.
+## Updating images safely
+
+1. Add/replace files in `images/` with the same naming convention.
+2. Commit/push in this assets repository.
+3. Update the submodule pointer in the main repository.
+4. Verify at least one raw URL after merge to confirm public access.
