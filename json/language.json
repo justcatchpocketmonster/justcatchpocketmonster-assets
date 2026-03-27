@@ -1183,6 +1183,10 @@
     "fr": ["Fin de l'événement"],
     "eng": ["End of event"]
   },
+  "seasonalEvent": {
+    "fr": ["Événement saisonnier"],
+    "eng": ["Seasonal event"]
+  },
 
   "seasonal_noEvent_title": {
     "fr": ["Aucun évènement actuellement"],
