@@ -1534,7 +1534,6 @@
       "❌ An admin settings menu is already active on this server. Please finish the current session before opening a new one."
     ]
   },
-
   "commandTradeExplication": {
     "fr": ["Permet d'échanger un Pokémon avec un autre utilisateur"],
     "eng": ["Allows you to trade a Pokémon with another user"]
