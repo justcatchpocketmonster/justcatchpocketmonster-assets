@@ -16668,14 +16668,59 @@
     "id": 741,
     "name": {
       "nameFr": ["Plumeline"],
-      "nameEng": ["Oricorio-baile"],
-      "nameCompletFr": ["Plumeline"],
-      "nameCompletEng": ["Oricorio-baile"]
+      "nameEng": ["Oricorio"],
+      "nameCompletFr": ["Plumeline Flamenco"],
+      "nameCompletEng": ["Oricorio Baile"]
     },
     "arrayType": ["fire", "flying"],
     "rarity": "ordinary",
     "gen": 7,
     "imgName": "0741-000",
+    "form": "ordinary",
+    "versionForm": 1
+  },
+  {
+    "id": 741,
+    "name": {
+      "nameFr": ["Plumeline"],
+      "nameEng": ["Oricorio"],
+      "nameCompletFr": ["Plumeline Pom-Pom"],
+      "nameCompletEng": ["Oricorio Pom-Pom"]
+    },
+    "arrayType": ["fire", "flying"],
+    "rarity": "ordinary",
+    "gen": 7,
+    "imgName": "0741-001",
+    "form": "ordinary",
+    "versionForm": 1
+  },
+  {
+    "id": 741,
+    "name": {
+      "nameFr": ["Plumeline"],
+      "nameEng": ["Oricorio"],
+      "nameCompletFr": ["Plumeline Hula"],
+      "nameCompletEng": ["Oricorio Pa'u"]
+    },
+    "arrayType": ["fire", "flying"],
+    "rarity": "ordinary",
+    "gen": 7,
+    "imgName": "0741-002",
+    "form": "ordinary",
+    "versionForm": 1
+  },
+  {
+    "id": 741,
+    "name": {
+      "nameFr": ["Plumeline"],
+      "nameEng": ["Oricorio"],
+      "nameCompletFr": ["Plumeline Buyō"],
+      "nameCompletEng": ["Oricorio Sensu"]
+    },
+    "arrayType": ["fire", "flying"],
+    "rarity": "ordinary",
+    "gen": 7,
+    "imgName": "0741-003",
     "form": "ordinary",
     "versionForm": 1
   },
@@ -16728,9 +16773,9 @@
     "id": 745,
     "name": {
       "nameFr": ["Lougaroc"],
-      "nameEng": ["Lycanroc-midday"],
-      "nameCompletFr": ["Lougaroc"],
-      "nameCompletEng": ["Lycanroc-midday"]
+      "nameEng": ["Lycanroc"],
+      "nameCompletFr": ["Lougaroc Diurne"],
+      "nameCompletEng": ["Lycanroc Midday"]
     },
     "arrayType": ["rock"],
     "rarity": "ordinary",
@@ -16740,17 +16785,62 @@
     "versionForm": 1
   },
   {
+    "id": 745,
+    "name": {
+      "nameFr": ["Lougaroc"],
+      "nameEng": ["Lycanroc"],
+      "nameCompletFr": ["Lougaroc Nocturne"],
+      "nameCompletEng": ["Lycanroc Midnight"]
+    },
+    "arrayType": ["rock"],
+    "rarity": "ordinary",
+    "gen": 7,
+    "imgName": "0745-001",
+    "form": "ordinary",
+    "versionForm": 1
+  },
+  {
+    "id": 745,
+    "name": {
+      "nameFr": ["Lougaroc"],
+      "nameEng": ["Lycanroc"],
+      "nameCompletFr": ["Lougaroc Crépusculaire"],
+      "nameCompletEng": ["Lycanroc Dusk"]
+    },
+    "arrayType": ["rock"],
+    "rarity": "ordinary",
+    "gen": 7,
+    "imgName": "0745-002",
+    "form": "ordinary",
+    "versionForm": 1
+  },
+  {
     "id": 746,
     "name": {
       "nameFr": ["Froussardine"],
-      "nameEng": ["Wishiwashi-solo"],
-      "nameCompletFr": ["Froussardine"],
-      "nameCompletEng": ["Wishiwashi-solo"]
+      "nameEng": ["Wishiwashi"],
+      "nameCompletFr": ["Froussardine Solo"],
+      "nameCompletEng": ["Wishiwashi Solo"]
     },
     "arrayType": ["water"],
     "rarity": "ordinary",
     "gen": 7,
     "imgName": "0746-000",
+    "form": "ordinary",
+    "versionForm": 1
+  },
+  {
+    "id": 746,
+    "name": {
+      "nameFr": ["Froussardine"],
+      "nameEng": ["Wishiwashi"],
+      "nameCompletFr": ["Froussardine Banc"],
+      "nameCompletEng": ["Wishiwashi School"]
+    },
+    "arrayType": ["water"],
+    "rarity": "ordinary",
+    "gen": 7,
+    "imgName": "0746-001",
     "form": "ordinary",
     "versionForm": 1
   },
@@ -17614,8 +17704,8 @@
     "name": {
       "nameFr": ["Mimiqui"],
       "nameEng": ["Mimikyu"],
-      "nameCompletFr": ["Mimiqui mâle"],
-      "nameCompletEng": ["Mimikyu male"]
+      "nameCompletFr": ["Mimiqui"],
+      "nameCompletEng": ["Mimikyu"]
     },
     "arrayType": ["ghost", "fairy"],
     "rarity": "ordinary",
@@ -17629,8 +17719,8 @@
     "name": {
       "nameFr": ["Mimiqui"],
       "nameEng": ["Mimikyu"],
-      "nameCompletFr": ["Mimiqui femelle"],
-      "nameCompletEng": ["Mimikyu female"]
+      "nameCompletFr": ["Mimiqui encore"],
+      "nameCompletEng": ["Mimikyu again"]
     },
     "arrayType": ["ghost", "fairy"],
     "rarity": "ordinary",
