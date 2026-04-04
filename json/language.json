@@ -686,6 +686,22 @@
     "fr": ["Le plus apparu : "],
     "eng": ["Most spawn : "]
   },
+  "statBestSosChain": {
+    "fr": ["Meilleure chaîne SOS"],
+    "eng": ["Best SOS chain"]
+  },
+  "statRaidsAppeared": {
+    "fr": ["Raids apparus"],
+    "eng": ["Raids appeared"]
+  },
+  "statRaidsWon": {
+    "fr": ["Raids gagnés"],
+    "eng": ["Raids won"]
+  },
+  "statRaidsLost": {
+    "fr": ["Raids perdus"],
+    "eng": ["Raids lost"]
+  },
   "tooMuchPokemon": {
     "fr": ["Trop de Pokémon"],
     "eng": ["Too much Pokémon"]
