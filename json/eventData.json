@@ -217,13 +217,16 @@
     "image": "0015-000",
     "statMultipliers": {
       "level1": {
-        "ultraBeast": 25
+        "ultraBeast": 25,
+        "7": 25
       },
       "level2": {
-        "ultraBeast": 50
+        "ultraBeast": 50,
+        "7": 50
       },
       "level3": {
-        "ultraBeast": 100
+        "ultraBeast": 100,
+        "7": 100
       }
     }
   }
