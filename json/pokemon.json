@@ -20643,9 +20643,9 @@
     "id": 925,
     "name": {
       "nameFr": ["Famignol"],
-      "nameEng": ["Maushold-family-of-four"],
-      "nameCompletFr": ["Famignol mâle"],
-      "nameCompletEng": ["Maushold-family-of-four male"]
+      "nameEng": ["Maushold"],
+      "nameCompletFr": ["Famignol de trois"],
+      "nameCompletEng": ["Maushold-family-of-three"]
     },
     "arrayType": ["normal"],
     "rarity": "ordinary",
@@ -20658,9 +20658,9 @@
     "id": 925,
     "name": {
       "nameFr": ["Famignol"],
-      "nameEng": ["Maushold-family-of-four"],
-      "nameCompletFr": ["Famignol femelle"],
-      "nameCompletEng": ["Maushold-family-of-four female"]
+      "nameEng": ["Maushold"],
+      "nameCompletFr": ["Famignol de quatre"],
+      "nameCompletEng": ["Maushold-family-of-four"]
     },
     "arrayType": ["normal"],
     "rarity": "ordinary",
@@ -21678,9 +21678,9 @@
     "id": 982,
     "name": {
       "nameFr": ["Deusolourdo"],
-      "nameEng": ["Dudunsparce-two-segment"],
-      "nameCompletFr": ["Deusolourdo mâle"],
-      "nameCompletEng": ["Dudunsparce-two-segment male"]
+      "nameEng": ["Dudunsparce"],
+      "nameCompletFr": ["Deusolourdo double"],
+      "nameCompletEng": ["Dudunsparce-two-segment"]
     },
     "arrayType": ["normal"],
     "rarity": "ordinary",
@@ -21693,9 +21693,9 @@
     "id": 982,
     "name": {
       "nameFr": ["Deusolourdo"],
-      "nameEng": ["Dudunsparce-two-segment"],
-      "nameCompletFr": ["Deusolourdo femelle"],
-      "nameCompletEng": ["Dudunsparce-two-segment female"]
+      "nameEng": ["Dudunsparce"],
+      "nameCompletFr": ["Deusolourdo Triple"],
+      "nameCompletEng": ["Dudunsparce-two-segment"]
     },
     "arrayType": ["normal"],
     "rarity": "ordinary",
